@@ -3,12 +3,12 @@
 # Com a biblioteca "turtle" é possível fazer imagens gráficas.
 
 from turtle import *
-forward(100)
+forward(50)
 shape('turtle')
-right(45)
-forward(150)
+right(90)
+forward(100)
 
 # Em 'import *" o "*" quer dizer "traga tudo dessa biblioteca".
 # "forward" é para quantos passos, ou melhor, pixeis, o que vemos na tela irá andar.
 # "shape" é o formato que damos ao que aparece na tela, este comando sem o "shape" trás uma seta, mas com o "turtle" junto do comando ele muda a seta para uma tartaruga.
-# "right" é para mudar a direção da tartaruga, no caso 45 graus.
+# "right" é para mudar a direção da tartaruga, no caso 90 graus.
